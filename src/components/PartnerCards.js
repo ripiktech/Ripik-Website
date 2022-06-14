@@ -1,6 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+
+
+
+
 function CardItem(props) {
   return (
     <>
@@ -11,6 +15,8 @@ function CardItem(props) {
               className='cards__item__img2'
               alt='Image'
               src={props.src}
+              
+
             />
           </figure>
           {/* <div className='cards__item__info2'>

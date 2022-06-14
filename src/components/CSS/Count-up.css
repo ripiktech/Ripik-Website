@@ -31,7 +31,7 @@
     font-size: 32px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
       'Lucida Sans', Arial, sans-serif;
-    text-align: right;
+    text-align: left;
     align-self: flex-start;
     padding-left: 10%;
     padding-right: 4%;
@@ -69,8 +69,9 @@
     /* margin-left: 60%; */
     
     align-items: right;
-    width: 360px;
-    height: 360px;
+    width: auto;
+    height: auto;
+    max-width: 100%;
     background: url(https://picsum.photos/360/360?image=1);
     position: relative;
     overflow: hidden;
@@ -83,16 +84,18 @@
   .card:before {
     content: "";
     position: absolute;
-    width: 100%;
-    height: 100%;
+    width: auto;
+    height: auto;
+    max-width: 100%;
     top: 0;
   }
   .card .imgAnimated {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
+    width: auto;
+    height: auto;
+    max-width: 100%;
     display: flex;
     /* background-color: rgba(0, 0, 0, 0.85); */
     

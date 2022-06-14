@@ -33,6 +33,8 @@
   .cards__items2 {
     margin-bottom: 24px;
     color: #fff;
+    /* background-color: #2a2b2a; */
+
 
   }
   
@@ -41,6 +43,8 @@
     flex: 1;
     margin: 0 1rem;
     border-radius: 5px;
+    /* background-color: #2a2b2a; */
+
   }
   
   .cards__item__link2 {
@@ -54,6 +58,7 @@
     overflow: hidden;
     text-decoration: none;
   }
+
   
   .cards__item__pic-wrap2 {
     position: relative;
@@ -93,13 +98,14 @@
     max-width: 100%;
     height: 100%;
     max-height: 100%;
-    object-fit: cover;
+    object-fit: contain;
     transition: all 0.2s linear;
+    /* background-color: #2a2b2a; */
     background-color: #fff;
   }
   
   .cards__item__img2:hover {
-    transform: scale(1.1);
+    transform: scale(0.9);
   }
   
   .cards__item__info2 {

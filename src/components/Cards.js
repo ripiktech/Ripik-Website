@@ -10,22 +10,22 @@ function Cards() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='images/industries/power.png'
+              src='images/industries2/power.png'
               text='Power'
               label='Power'
             />
             <CardItem
-              src='images/industries/metals.png'
+              src='images/industries2/metals.png'
               text='Metals'
-              label='Metals'
+              label='Metals2'
             />
             <CardItem
-              src='images/industries/chemicals.png'
+              src='images/industries2/chemicals.png'
               text='Chemicals'
               label='Chemicals'
             />
             <CardItem
-              src='images/industries/pharma.png'
+              src='images/industries2/pharma.png'
               text='Pharmaceuticals'
               label='Pharmaceuticals'
             />

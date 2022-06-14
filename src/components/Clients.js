@@ -1,11 +1,14 @@
 import React from 'react';
-import './CSS/Cards.css';
+import './CSS/Cards.css'
 // import Tooltip from 'react-tooltip-lite';
 import ClientTooltip from './Client_tooltip';
-import './CSS/Client_tooltip.css'
+import './CSS/Client_tooltip.css';
+
+
+const imageFolder = 'clients2';
 function Clients() {
   return (
-    <div className='cards-clients'>
+    <div className='cards__client'>
       <h1>We have a prestigious client base</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
@@ -13,9 +16,9 @@ function Clients() {
 
           <ClientTooltip
               name='Aditya Birla'
-              logo='images/clients/aditya-birla.png'
+              logo='images/clients2/aditya-birla.png'
               details='Ripik AI APC at work! We are serving several marquee businesses of the group in operational excellence journeys such as yield improvement, throughput optimization, chemical cost reduction.'
-              images='images/clients/aditya-birla-2.png'>
+              images='images/clients/aditya-birla.png'>
             </ClientTooltip>
             <ClientTooltip
               name='Grasim'
@@ -25,13 +28,13 @@ function Clients() {
             </ClientTooltip>
             <ClientTooltip
               name='Ultratech'
-              logo='images/clients/ultratech.jpg'
+              logo='images/clients2/ultratech.png'
               details='Ripik vision at work! Patent pending computer vision model to understand the cement kiln and power plant operations. Improvement in boiler steam heat rate and throughput and energy efficiency in cement kiln.'
               images='images/clients/ultratech-2.png'>
             </ClientTooltip>
             <ClientTooltip
               name='Godrej & Boyce'
-              logo='images/clients/godrej-n-boyce.png'
+              logo='images/clients2/godrej-n-boyce.png'
               details='Godrej and Boyce is India’s pride, a business that has lasted 125+ years. We are their AI software partners across the group. Ripik Optimus and Ripik vision are deployed in several group businesses and are leading to throughput, yield and cost improvements. '
               images='images/clients/godrej-and-boyce-2.png'>
             </ClientTooltip>
@@ -40,19 +43,19 @@ function Clients() {
             <ul className='cards__items'>
             <ClientTooltip
               name='Godrej interio'
-              logo='images/clients/godrej-interio.png'
+              logo='images/clients2/godrej-interio.png'
               details='Most likely you have a Godrej almirah in your house, isnt it? Ripik vision at work to ensure they are flawless. We are reducing defects such as rust, excess paint - all via our proprietary computer vision based rust detection and paint application system.'
               images='images/clients/godrej-interio-2.png'>
             </ClientTooltip>
             <ClientTooltip
               name='Godrej aerospace'
-              logo='images/clients/godrej-aerospace.png'
+              logo='images/clients2/godrej-aerospace.png'
               details='They are the engine suppliers to Brahmos missile as well as ROlls Royce. How to make a Brahmos missile faster? How to ensure the build is stronger? Ripik APC at work.'
               images='images/clients/godrej-aerospace-2.png'>
             </ClientTooltip>
             <ClientTooltip
               name='Piramal'
-              logo='images/clients/piramal.png'
+              logo='images/clients2/piramal.png'
               details='Serving several group businesses in their AI journeys. We are the thoughtpartners to the CXO brass. Several of their businesses where we have partnered are case studies of Fortune 100, Microsoft icons amongst others.'
               images='images/clients/piramal-2.png'>
             </ClientTooltip>
@@ -73,22 +76,17 @@ function Clients() {
             </ClientTooltip>
             <ClientTooltip
               name='Vedanta aluminium'
-              logo='images/clients/vedanta.png'
+              logo='images/clients2/vedanta.png'
               details='Ripik Optimus at work to reduce energy consumption and improve efficiency in industrial settings'
               images='images/clients/vedanta-2.png'>
             </ClientTooltip>
             <ClientTooltip
               name='DCM Shriram'
-              logo='images/clients/dcm-shriram.png'
+              logo='images/clients2/dcm-shriram.png'
               details='Ripik Optimus at work. Chlor alkali operating system that reduces power consumption by 3% in all electrolysis processes. Million dollar savings at the click of a button. '
               images='images/clients/dcm-shriram-2.png'>
             </ClientTooltip>
-            <ClientTooltip
-              name=''
-              logo=''
-              details=''
-              images=''>
-            </ClientTooltip>
+            
             </ul>
 
           

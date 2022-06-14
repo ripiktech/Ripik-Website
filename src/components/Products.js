@@ -4,6 +4,11 @@ import CardItem from './ProductsCards';
 import Tooltip from 'react-tooltip-lite';
 import './CSS/Client_tooltip.css'
 function Products() {
+
+
+
+
+
   return (
     <div className='cards'>
       <h3>We build AI applications for industrial companies to improve their bottomline without any capex and within 6-9 months.</h3>
@@ -31,8 +36,9 @@ function Products() {
               background="#222222"
             >
             <CardItem
-              src='./images/products/optimus.png'
+              src='./images/products/optimus2.png'
               text='Ripik Optimus'
+              hoverImg='./images/products/optimus.png'
             />
             </Tooltip>
             <Tooltip
@@ -53,10 +59,12 @@ function Products() {
               tipContentClassName=""
               color="#fff"
               background="#222222"
+              
             >
             <CardItem
-              src='./images/products/apc-02.png'
+              src='./images/products/apc2.png'
               text='Ripik AI APC'
+              hoverImg='./images/products/apc.png'
             />
             </Tooltip>
             {/* </ul>
@@ -81,8 +89,9 @@ function Products() {
               background="#222222"
             >
             <CardItem
-              src='./images/products/vision-04.png'
+              src='./images/products/vision2.png'
               text='Ripik vision'
+              hoverImg='./images/products/vision.png'
             />
             </Tooltip>
             <Tooltip
@@ -107,8 +116,9 @@ function Products() {
               background="#222222"
             >
             <CardItem
-              src='./images/products/aife.png'
+              src='./images/products/aife2.png'
               text='Ripik AI for everyone'
+              hoverImg='./images/products/aife.png'
             />
             </Tooltip>
             </ul>

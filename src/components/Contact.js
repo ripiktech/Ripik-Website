@@ -4,6 +4,8 @@ import './CSS/Form.css';
 import 'font-awesome/css/font-awesome.min.css';
 
 function Contact() {
+
+
   return (
 
     <div class="content">

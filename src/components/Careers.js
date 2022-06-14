@@ -4,8 +4,11 @@ import CareerCardItems from './CareerCardItems';
 
 function Careers() {
   return (
-    <div className='cards-clients'>
+    
+    <div className='cards'>
+      
       <h1>We are hiring!</h1>
+      <section id = "careers">
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
@@ -36,6 +39,7 @@ function Careers() {
           
         </div>
       </div>
+      </section>
     </div>
   );
 }

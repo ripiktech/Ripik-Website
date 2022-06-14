@@ -1,5 +1,6 @@
 import React from 'react';
 import { CareersButtons } from './CareersButtons';
+import './CSS/Cards.css';
 function CareerCardItem(props) {
   return (
     <>

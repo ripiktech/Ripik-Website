@@ -11,12 +11,14 @@ function ClientTooltip(props) {
               content={(
                 <div>
                   <div class="post-container">                
-                    <div class="post-thumb"><img src={props.images} /></div>
+                    
                     <div class="post-content">
                         <h3 class="post-title">{props.name}</h3>
                         <p>
                             {props.details}
+                            {/* <img className = 'post-thumb' src={props.images} /> */}
                         </p>
+                        
                     </div>
                   </div>
                 </div>

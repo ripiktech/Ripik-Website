@@ -35,15 +35,16 @@ const settings = {
 };
 const Team = () => {
   return (
-    <div className='team__container' id='our-team'>
-      <h1>Our team</h1>  
+    <div className='team__container'>
+      <h1>Our team</h1>
+    <section  id='our-team'>
     <div
       className="testimonial"
       style={{ display: "flex", justifyContent: "center", marginTop: 50 }}
     >
       <div style={{ width: "50%", textAlign: "center" }}>
         <Slider prevArrow={<PreviousBtn />} nextArrow={<NextBtn />} {...settings}>
-          <Card img="https://www.tutorialrepublic.com/examples/images/clients/2.jpg" name="Pinak Jain" role="Founder and CEO" 
+          <Card img="./images/team/profile/pinak_jain.jpg" name="Pinak Jain" role="Founder and CEO" 
           testimonial="Ex McK Junior Partner, 8 years of experience building AI apps for industrial enterprises. Topper from IIT D, IIM C, ET 30 under 30."
           />
           <Card img="https://www.tutorialrepublic.com/examples/images/clients/1.jpg" name="Navneet Singh" role="Head of analytics"
@@ -52,7 +53,7 @@ const Team = () => {
           <Card img="https://www.tutorialrepublic.com/examples/images/clients/3.jpg" name="Ananth Govind Rajan" role="Advisor to Ripik.ai "
           testimonial="PhD in AI-ML from MIT, Boston, Institute rank 1 at IIT Delhi."
           />
-          <Card img="https://www.tutorialrepublic.com/examples/images/clients/3.jpg" name="Purva Jain" role="Chief People Officer "
+          <Card img="./images/team/profile/purva_jain.jpg" name="Purva Jain" role="Chief People Officer "
           testimonial="8 years of experience in leading teams and managing their problems."
           />
           <Card img="https://www.tutorialrepublic.com/examples/images/clients/3.jpg" name="Anindita Chattaraj" role="Design specialist"
@@ -61,7 +62,7 @@ const Team = () => {
           <Card img="https://www.tutorialrepublic.com/examples/images/clients/3.jpg" name="Vaibhav" role="Back end specialist "
           testimonial="Top coder in all leading coding competitions, IIT D coding ninja."
           />
-          <Card img="https://www.tutorialrepublic.com/examples/images/clients/3.jpg" name="Pratham Gupta" role="ML expert from IIIT Hyderabad "
+          <Card img="./images/team/profile/pratham.jpg" name="Pratham Gupta" role="ML expert from IIIT Hyderabad "
           testimonial="Deep experience in building algorithms."
           />
           <Card img="https://www.tutorialrepublic.com/examples/images/clients/3.jpg" name="Gargi Sharma" role="Data scientist from IIT Delhi"
@@ -75,6 +76,7 @@ const Team = () => {
         </Slider>
       </div>
     </div>
+    </section>
     </div>
   );
 };

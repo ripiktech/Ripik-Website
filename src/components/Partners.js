@@ -11,43 +11,29 @@ function Partners() {
           <ul className='cards__items2'>
             <CardItem
               src='images/partners/aws.png'
-              text='Power'
-              label='Power'
+              // text='Power'
+              // label='Power'
             />
             <CardItem
-              src='images/partners/ventureHighway.jpeg'
-              text='Metals'
-              label='Metals'
+              src='images/partners/ventureHighway.png'
             />
             <CardItem
               src='images/partners/accel.svg'
-              text='Chemicals'
-              label='Chemicals'
             />
             <CardItem
-              src='images/partners/azure.jpg'
-              text='Pharmaceuticals'
-              label='Pharmaceuticals'
+              src='images/partners/msazure.png'
             />
             <CardItem
               src='images/partners/google.png'
-              text='Power'
-              label='Power'
             />
             <CardItem
-              src='images/partners/forceVentures.jpeg'
-              text='Metals'
-              label='Metals'
+              src='images/partners/forceVentureslarge.png'
             />
             <CardItem
-              src='images/partners/titanCapital.jpeg'
-              text='Chemicals'
-              label='Chemicals'
+              src='images/partners/titanCapital.png'
             />
             <CardItem
-              src='images/partners/goodCapital.gif'
-              text='Pharmaceuticals'
-              label='Pharmaceuticals'
+              src='images/partners/goodCapital.png'
             />
             
             
