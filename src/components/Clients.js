@@ -5,7 +5,6 @@ import ClientTooltip from './Client_tooltip';
 import './CSS/Client_tooltip.css';
 
 
-const imageFolder = 'clients2';
 function Clients() {
   return (
     <div className='cards__client'>
@@ -22,7 +21,7 @@ function Clients() {
             </ClientTooltip>
             <ClientTooltip
               name='Grasim'
-              logo='images/clients/grasim.png'
+              logo='images/clients2/grasim.svg'
               details='Ripik APC at work! Improved pulp quality control by 50% by soft sensorisation and ML led chemical addition. AI modeling across the value chain and dynamic control to improve end to end quality '
               images='images/clients/grasim-2.png'>
             </ClientTooltip>

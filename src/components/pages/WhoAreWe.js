@@ -13,7 +13,7 @@ function WhoAreWe() {
     <>
       <WhoAreWeHeroSection/>
       <TeamCounterAnimation/>
-      <LifeAtRipik/>
+      {/* <LifeAtRipik/> */}
       <Partners/>
       <Team/>
       <Careers/>

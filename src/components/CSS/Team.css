@@ -1,7 +1,8 @@
 .team__container {
     padding: 4rem;
-    background-color: #1a1a1a;
+    background-color: #212121;
     color: #fff;
+    font-family: "Poppins";
   }
 
   .testimonial .slick-arrow.slick-prev,

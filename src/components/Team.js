@@ -44,7 +44,7 @@ const Team = () => {
     >
       <div style={{ width: "50%", textAlign: "center" }}>
         <Slider prevArrow={<PreviousBtn />} nextArrow={<NextBtn />} {...settings}>
-          <Card img="./images/team/profile/pinak_jain.jpg" name="Pinak Jain" role="Founder and CEO" 
+          <Card img="./images/team/profile/pinak_jain.jpg" name="Pinak Dattaray" role="Founder and CEO" 
           testimonial="Ex McK Junior Partner, 8 years of experience building AI apps for industrial enterprises. Topper from IIT D, IIM C, ET 30 under 30."
           />
           <Card img="https://www.tutorialrepublic.com/examples/images/clients/1.jpg" name="Navneet Singh" role="Head of analytics"
@@ -103,11 +103,11 @@ const Card = ({ img, name, role, testimonial }) => {
           marginBottom: 20,
         }}
       />
-      <p style={{ fontWeight: 600 }}>
+      <p style={{ fontStyle: "bold", color: "white", fontWeight: 600, fontSize: 20, fontFamily: "Poppins" }}>
         {testimonial}
       </p>
-      <p style={{ fontStyle: "italic", marginTop: 25, fontWeight: 600 }}>
-        <span style={{ fontWeight: 600, color: "green" }}>{name}</span> ,
+      <p style={{ fontStyle: "bold", marginTop: 25, fontWeight: 600, color: "white", fontSize: 20, fontFamily: "Poppins" }}>
+        <span style={{ color: "teal" }}>{name}</span> ,
         {role}
       </p>
     </div>

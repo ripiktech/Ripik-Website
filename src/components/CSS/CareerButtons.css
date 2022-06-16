@@ -1,0 +1,84 @@
+:root {
+    --primary: #fff;
+  }
+  
+  .btn--career {
+    padding: 8px 20px;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-family: "Poppins";
+  }
+  
+  .btn--career--primary {
+    background-color: #4CACBC;
+    color: #242424;
+    border: 0.5px solid #4CACBC;
+    border-radius: 10px;
+    font-family: "Poppins";
+  }
+
+  .btn--career--primary:hover {
+    opacity: 0.6;
+  }
+  
+  .btn--career--outline {
+    background-color: transparent;
+    color: #fff;
+    padding: 8px 20px;
+    border: 0.5px solid #4CACBC;
+    transition: all 0.3s ease-out;
+    font-family: "Poppins";
+  }
+  
+  .btn--career--medium {
+    padding: 8px 20px;
+    /* font-size: 18px; */
+  }
+
+  .btn--career--small {
+    padding: 2px 4px;
+    /* font-size: 18px; */
+  }
+
+  .btn--career-mid {
+    width: 60%;
+    margin-left: 20%;
+  }
+
+  .btn--career-right {
+    position: absolute;
+    top: 0;
+    /* right: 0; */
+    margin-top: 35px;
+    width: 40%;
+    margin-left: 50%;
+    font-size: small;
+  }
+
+  .btn--career-left {
+    margin-left: 10%;
+  }
+  
+  .btn--career--large {
+    padding: 12px 26px;
+    font-size: 20px;
+  }
+  
+  .btn--career--large:hover,
+  .btn--career--medium:hover,
+  .btn--career--small:hover {
+    transition: all 0.3s ease-out;
+    background: #4CACBC;
+    color: #242424;
+    transition: 250ms;
+  }
+  
+
+  @media screen and (max-width: 820px) {
+    .btn--career-mid {
+      margin: 2px 2px 2px 2px;
+      width : 10px;
+    }
+  }

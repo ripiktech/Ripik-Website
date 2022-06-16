@@ -1,12 +1,12 @@
 import React from 'react';
-import './CSS/Button.css';
+import './CSS/CareerButtons.css';
 import { Link } from 'react-router-dom';
 
-const STYLES = ['btn--primary', 'btn--outline', 'btn--test'];
+const STYLES = ['btn--career--primary', 'btn--career--outline', 'btn--test'];
 
-const SIZES = ['btn--medium', 'btn--large'];
+const SIZES = ['btn--career--medium', 'btn--career--large', 'btn--career--small'];
 
-const POSITION = ['btn-left', 'btn-mid', 'btn-right'];
+const POSITION = ['btn--career-left', 'btn--career-mid', 'btn--career-right'];
 
 
 export const CareersButtons = ({
@@ -29,9 +29,9 @@ export const CareersButtons = ({
 
 
   return (
-    <Link to={{pathname : `${linkName}`}} className='btn-mobile' target="_blank">
+    <Link to={{pathname : `${linkName}`}} className='btn--career-mobile' target="_blank">
       <button
-        className={`btn ${checkButtonStyle} ${checkButtonSize} ${checkButtonPosition}` }
+        className={`btn--career ${checkButtonStyle} ${checkButtonSize} ${checkButtonPosition}` }
         onClick={onClick}
         type={type}
       >
