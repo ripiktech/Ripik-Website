@@ -107,7 +107,7 @@ const Card = ({ img, name, role, testimonial }) => {
         {testimonial}
       </p>
       <p style={{ fontStyle: "bold", marginTop: 25, fontWeight: 600, color: "white", fontSize: 20, fontFamily: "Poppins" }}>
-        <span style={{ color: "teal" }}>{name}</span> ,
+        <span style={{ color: "#4CACBC" }}>{name}</span> ,
         {role}
       </p>
     </div>
