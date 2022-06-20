@@ -46,39 +46,39 @@ function Footer() {
           <div class='social-icons'>
             <Link
               class='social-icon-link facebook'
-              to='/'
+              to='https://www.facebook.com/ripikai/'
               target='_blank'
               aria-label='Facebook'
             >
               <i class='fab fa-facebook-f' />
             </Link>
-            <Link
+            {/* <Link
               class='social-icon-link instagram'
               to='/'
               target='_blank'
               aria-label='Instagram'
             >
               <i class='fab fa-instagram' />
-            </Link>
+            </Link> */}
             <Link
               class='social-icon-link youtube'
-              to='/'
+              to={{pathname: 'https://www.youtube.com/channel/UCqQZ6BDViV-lKhI9FoHfQYg'}}
               target='_blank'
               aria-label='Youtube'
             >
               <i class='fab fa-youtube' />
             </Link>
-            <Link
+            {/* <Link
               class='social-icon-link twitter'
               to='/'
               target='_blank'
               aria-label='Twitter'
             >
               <i class='fab fa-twitter' />
-            </Link>
+            </Link> */}
             <Link
               class='social-icon-link twitter'
-              to='/'
+              to={{pathname : 'https://in.linkedin.com/company/ripik-ai'}}
               target='_blank'
               aria-label='LinkedIn'
             >
