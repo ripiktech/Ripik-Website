@@ -4,6 +4,10 @@ import '../App.css';
 import './CSS/HeroSection.css';
 import './CSS/HeroSection-WhatWeDo.css';
 
+function componentDidMount() {
+  window.scrollTo(0, 0);
+}
+
 function WhatWeDoHeroSection() {
   return (
     <div className='hero-container-whatwedo'>

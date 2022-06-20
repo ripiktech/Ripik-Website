@@ -3,6 +3,8 @@
     background-color: #212121;
     color: #fff;
     font-family: "Poppins";
+    z-index: 1;
+  position:sticky;
   }
 
   .testimonial .slick-arrow.slick-prev,

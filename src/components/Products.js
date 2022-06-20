@@ -10,7 +10,7 @@ function Products() {
 
 
   return (
-    <div className='cards'>
+    <div className='cards-products'>
       <h3>We build AI applications for industrial companies to improve their bottomline without any capex and within 6-9 months.</h3>
       <div className='cards__container'>
         <div className='cards__wrapper'>

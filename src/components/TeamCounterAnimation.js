@@ -13,10 +13,6 @@ function TeamCounterAnimation() {
 
   return (
         <div className='count-container-wrapper'>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
         <div className='count-container'>
             
 
@@ -110,12 +106,7 @@ function TeamCounterAnimation() {
         </div>
 
 
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        </div>
-        // </div>
+         </div>
   );
 }
 

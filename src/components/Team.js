@@ -44,31 +44,31 @@ const Team = () => {
     >
       <div style={{ width: "50%", textAlign: "center" }}>
         <Slider prevArrow={<PreviousBtn />} nextArrow={<NextBtn />} {...settings}>
-          <Card img="./images/team/profile/pinak.jpg" name="Pinak Dattaray" role="Founder and CEO" 
+          <Card img="./images/team/profile/pinak.jpg" name="Pinak Dattaray" role="    Founder and CEO" 
           testimonial="Ex McK Junior Partner, 8 years of experience building AI apps for industrial enterprises. Topper from IIT D, IIM C, ET 30 under 30."
           />
-          <Card img="./images/team/profile/pinak_jain.jpg" name="Navneet Singh" role="Head of analytics"
+          <Card img="./images/team/profile/pinak_jain.jpg" name="Navneet Singh" role="    Head of analytics"
           testimonial="8 years of experience building AI models and building data science teams, first in deloitte and then in McKinsey."
           />
-          <Card img="./images/team/profile/pinak_jain.jpg" name="Ananth Govind Rajan" role="Advisor to Ripik.ai "
+          <Card img="./images/team/profile/pinak_jain.jpg" name="Ananth Govind Rajan" role="    Advisor to Ripik.ai "
           testimonial="PhD in AI-ML from MIT, Boston, Institute rank 1 at IIT Delhi."
           />
-          <Card img="./images/team/profile/purva_jain.jpg" name="Purva Jain" role="Chief People Officer "
+          <Card img="./images/team/profile/purva_jain.jpg" name="Purva Jain" role="    Chief People Officer "
           testimonial="8 years of experience in leading teams and managing their problems."
           />
-          <Card img="./images/team/profile/Anindita Chattaraj.jpg"  name="Anindita Chattaraj" role="Design specialist"
+          <Card img="./images/team/profile/Anindita Chattaraj.jpg"  name="Anindita Chattaraj" role="    Design specialist"
           testimonial="1000+ designs, 10+ years of experience."
           />
-          <Card img="./images/team/profile/Vaibhav.png" name="Vaibhav" role="Back end specialist "
+          <Card img="./images/team/profile/Vaibhav.png" name="Vaibhav" role="    Back end specialist "
           testimonial="Top coder in all leading coding competitions, IIT D coding ninja."
           />
-          <Card img="./images/team/profile/Pratham Gupta.jpg" name="Pratham Gupta" role="ML expert from IIIT Hyderabad "
+          <Card img="./images/team/profile/Pratham Gupta.jpg" name="Pratham Gupta" role="    ML expert from IIIT Hyderabad "
           testimonial="Deep experience in building algorithms."
           />
-          <Card img="./images/team/profile/pinak_jain.jpg" name="Gargi Sharma" role="Data scientist from IIT Delhi"
+          <Card img="./images/team/profile/pinak_jain.jpg" name="Gargi Sharma" role="    Data scientist from IIT Delhi"
           testimonial="Churns out ML models day in and day out."
           />
-          <Card img="./images/team/profile/Aayush.jpg" name="Aayush Kadam" role="Front end specialist from IIT Bombay , Google"
+          <Card img="./images/team/profile/Aayush.jpg" name="Aayush Kadam" role="    Front end specialist from IIT Bombay , Google"
           testimonial="Deep conceptual thinker, topper in all coding competitions."
           />
           
@@ -107,8 +107,7 @@ const Card = ({ img, name, role, testimonial }) => {
         {testimonial}
       </p>
       <p style={{ fontStyle: "bold", marginTop: 25, fontWeight: 600, color: "white", fontSize: 20, fontFamily: "Poppins" }}>
-        <span style={{ color: "#4CACBC" }}>{name}</span> ,
-        {role}
+        <span style={{ color: "#4CACBC" }}>{name}</span> ,              {role}
       </p>
     </div>
   );

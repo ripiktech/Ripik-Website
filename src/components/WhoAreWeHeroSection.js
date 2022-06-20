@@ -9,6 +9,7 @@ import CountUp from 'react-countup'
 
 
 const countTime = 2;
+
 function WhoAreWeHeroSection() {
 
   return (

@@ -4,7 +4,7 @@ import CardItem from './CardItem';
 
 function Cards() {
   return (
-    <div className='cards'>
+    <div className='cards-industries'>
       <h1>Industries we serve</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>

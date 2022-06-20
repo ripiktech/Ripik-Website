@@ -6,12 +6,35 @@
   color: #fff;
 }
 
+.cards-industries{
+  padding: 4rem;
+  /* background: linear-gradient(#020a02, #091409); */
+  background: #2a2a2a;
+  /* background-image: linear-gradient(180deg, #242424 0%, #212121 74%); */
+  color: #fff;
+  z-index: 1;
+  position:sticky;
+}
+
+.cards-products{
+  padding: 4rem;
+  /* background: linear-gradient(#020a02, #091409); */
+  background: #2a2a2a;
+  /* background-image: linear-gradient(180deg, #242424 0%, #212121 74%); */
+  color: #fff;
+  margin-top: 100vh;
+  z-index: 1;
+  position:sticky;
+}
+
 .cards-clients, .cards__client  {
   padding: 4rem;
   /* background: linear-gradient(#020a02, #091409); */
   background: #121212;
   /* background-image: linear-gradient(180deg, #242424 0%, #212121 74%); */
   color: #fff;
+  z-index: 1;
+  position:sticky;
 }
 
 .cards-careers {
@@ -21,6 +44,8 @@
   /* background-image: linear-gradient(180deg, #242424 0%, #212121 74%); */
   color: #fff;
   font-family: "Poppins";
+  z-index: 1;
+  position:sticky;
 }
 
 
