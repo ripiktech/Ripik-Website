@@ -20,8 +20,8 @@ function WhoAreWe() {
       <WhoAreWeHeroSection/>
       <TeamCounterAnimation/>
       {/* <LifeAtRipik/> */}
-      <Partners />
-      <section id='ourTeam'><Team/></section>
+      <Partners/>
+      <Team/>
       <Careers/>
       <Footer/>
     </>

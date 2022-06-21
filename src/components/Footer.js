@@ -11,8 +11,8 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div className='footer-link-items-container'>
             <ul className='footer-link-items'>
-            {/* <li><Link to='/who-are-we'>About Ripik AI</Link></li> */}
-            <li><Link to='/who-are-we/'>Our team</Link></li>
+            <li><Link to='/what-we-do'>About Ripik AI</Link></li>
+            <li><Link to='/who-are-we'>Our team</Link></li>
             <li><Link to='/who-are-we'>Careers</Link></li>
             <li><Link to='/contact-us'>Contact us</Link></li>
             </ul>
