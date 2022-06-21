@@ -5,6 +5,7 @@ import Cards from '../Cards';
 import Footer from '../Footer';
 import Products from '../Products';
 import Clients from '../Clients';
+import ClientsCarousal from '../Client-Carousal';
 // import OurStory from '../OurStory';
 
 
@@ -18,7 +19,8 @@ function Home() {
       <HeroSection/>
       <Products/>
       <Cards/>
-      <Clients/>
+      {/* <Clients/> */}
+      <ClientsCarousal/>
       {/* <OurStory/> */}
       <Footer/>
     </>

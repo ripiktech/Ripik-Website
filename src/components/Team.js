@@ -46,10 +46,10 @@ const Team = () => {
           <Card img="./images/team/profile/pinak.jpg" name="Pinak Dattaray" role="    Founder and CEO" 
           testimonial="Ex McK Junior Partner, 8 years of experience building AI apps for industrial enterprises. Topper from IIT D, IIM C, ET 30 under 30."
           />
-          <Card img="./images/team/profile/pinak_jain.jpg" name="Navneet Singh" role="    Head of analytics"
-          testimonial="8 years of experience building AI models and building data science teams, first in deloitte and then in McKinsey."
+          <Card img="./images/team/profile/navneet.jpeg" name="Navneet Singh" role="    Head of analytics"
+          testimonial="8 years of experience building AI models and building data science teams, first in Deloitte and then in McKinsey."
           />
-          <Card img="./images/team/profile/pinak_jain.jpg" name="Ananth Govind Rajan" role="    Advisor to Ripik.ai "
+          <Card img="./images/team/profile/ananth.jpeg" name="Ananth Govind Rajan" role="    Advisor to Ripik.ai "
           testimonial="PhD in AI-ML from MIT, Boston, Institute rank 1 at IIT Delhi."
           />
           <Card img="./images/team/profile/purva_jain.jpg" name="Purva Jain" role="    Chief People Officer "
