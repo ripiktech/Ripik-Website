@@ -2,9 +2,40 @@ import React from "react";
 import './CSS/Contact.css';
 import './CSS/Form.css';
 import 'font-awesome/css/font-awesome.min.css';
+import { useState } from 'react';
+import { send } from 'emailjs-com';
+
+
+
 
 function Contact() {
-
+  const [toSend, setToSend] = useState({
+    from_name: '',
+    to_name: '',
+    message: '',
+    reply_to: '',
+  });
+  
+  const onSubmit = (e) => {
+    e.preventDefault();
+    send(
+      'service_b75qpaj',
+      'template_y8koc89',
+      toSend,
+      'BtArwCqTfTXi9oyQW'
+    )
+      .then((response) => {
+        // console.log('SUCCESS!', response.status, response.text);
+        if(!alert('Message sent successfully!')){window.location.reload();}
+      })
+      .catch((err) => { 
+        if(!alert('Error in sending message. Please try again.')){window.location.reload();}
+      });
+  };
+  
+  const handleChange = (e) => {
+    setToSend({ ...toSend, [e.target.name]: e.target.value });
+  };
 
   return (
 
@@ -39,30 +70,56 @@ function Contact() {
         </div>
 
         <div className='email_form' class="col-md-6">
-          <form class="mb-5" method="post" id="contactForm" name="contactForm">
+          <form class="mb-5" method="post" id="contactForm" name="contactForm" onSubmit={onSubmit}>
             <div class="row">
               
               <div class="col-md-12 form-group">
                 <label for="name" class="col-form-label">Name</label>
-                <input type="text" class="form-control" name="name" id="name"/>
+                {/* <input type="text" class="form-control" name="from_name" id="name"/> */}
+                <input
+                  type='text'
+                  class='form-control'
+                  name='from_name'
+                  placeholder='Your name'
+                  value={toSend.from_name}
+                  onChange={handleChange}
+                />
               </div>
             </div>
             <div class="row">
               <div class="col-md-12 form-group">
                 <label for="email" class="col-form-label">Email</label>
-                <input type="text" class="form-control" name="email" id="email"/>
+                {/* <input type="text" class="form-control" name="email" id="email"/> */}
+                <input
+                  type='text'
+                  class='form-control'
+                  name='from_email'
+                  placeholder='Your email'
+                  value={toSend.from_email}
+                  onChange={handleChange}
+                />
               </div>
             </div>
 
             <div class="row">
               <div class="col-md-12 form-group">
                 <label for="message" class="col-form-label">Message</label>
-                <textarea class="form-control" name="message" id="message" cols="30" rows="7"></textarea>
+                <textarea 
+                type='text'
+                class="form-control" 
+                name="message" 
+                id="message" 
+                cols="30" rows="7"
+                placeholder='Your message'
+                value={toSend.message}
+                onChange={handleChange}
+                />
+                
               </div>
             </div>
             <div class="row">
               <div class="col-md-12">
-                <input type="submit" value="Send Message" id = "submit-btn" class="btn btn-primary rounded-0 py-2 px-4"/>
+                <input type="submit" value="Send Message" id = "submit-btn" class="btn btn-primary rounded-0 py-2 px-4" />
                 <span class="submitting"></span>
               </div>
             </div>

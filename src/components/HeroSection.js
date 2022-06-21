@@ -6,7 +6,7 @@ import './CSS/HeroSection.css';
 function HeroSection() {
   return (
     <div className='hero-container'>
-      <video src="https://drive.google.com/file/d/1eIXZ4iK6BWg5OKb0WjeLgGbnsXUurU-B/preview" autoPlay loop muted />
+      <video src="videos/background-video.m4v" autoPlay loop muted />
       <h1>Ripik AI</h1>
       
       <p>Our mission is to make manufacturing more efficient by enabling more intelligent operations.</p>

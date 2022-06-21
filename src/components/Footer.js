@@ -11,9 +11,9 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div className='footer-link-items-container'>
             <ul className='footer-link-items'>
-            <li><Link to='/who-are-we'>About Ripik AI</Link></li>
-            <li><Link to='/who-are-we#our-team'>Our team</Link></li>
-            <li><Link to='/who-are-we#careers'>Careers</Link></li>
+            {/* <li><Link to='/who-are-we'>About Ripik AI</Link></li> */}
+            <li><Link to='/who-are-we/'>Our team</Link></li>
+            <li><Link to='/who-are-we'>Careers</Link></li>
             <li><Link to='/contact-us'>Contact us</Link></li>
             </ul>
           </div>
@@ -46,7 +46,7 @@ function Footer() {
           <div class='social-icons'>
             <Link
               class='social-icon-link facebook'
-              to='https://www.facebook.com/ripikai/'
+              to={{pathname: 'https://www.facebook.com/ripikai/'}}
               target='_blank'
               aria-label='Facebook'
             >

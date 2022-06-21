@@ -36,8 +36,7 @@ const settings = {
 const Team = () => {
   return (
     <div className='team__container'>
-      <h1>Our team</h1>
-    <section  id='our-team'>
+      <h1 id='ourTeam'>Our team</h1>
     <div
       className="testimonial"
       style={{ display: "flex", justifyContent: "center", marginTop: 50 }}
@@ -76,7 +75,6 @@ const Team = () => {
         </Slider>
       </div>
     </div>
-    </section>
     </div>
   );
 };

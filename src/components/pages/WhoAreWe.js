@@ -8,14 +8,20 @@ import LifeAtRipik from '../LifeAtRipik';
 import Careers from '../Careers';
 import TeamCounterAnimation from '../TeamCounterAnimation';
 
+
 function WhoAreWe() {
+  window.scroll({
+    top: 0,
+    left: 0
+ });
   return (
+    
     <>
       <WhoAreWeHeroSection/>
       <TeamCounterAnimation/>
       {/* <LifeAtRipik/> */}
-      <Partners/>
-      <Team/>
+      <Partners />
+      <section id='ourTeam'><Team/></section>
       <Careers/>
       <Footer/>
     </>
