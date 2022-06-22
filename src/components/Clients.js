@@ -19,12 +19,7 @@ function Clients() {
               details='Ripik AI APC at work! We are serving several marquee businesses of the group in operational excellence journeys such as yield improvement, throughput optimization, chemical cost reduction.'
               images='images/clients/aditya-birla.png'>
             </ClientTooltip>
-            <ClientTooltip
-              name='Grasim'
-              logo='images/clients2/grasim.svg'
-              details='Ripik APC at work! Improved pulp quality control by 50% by soft sensorisation and ML led chemical addition. AI modeling across the value chain and dynamic control to improve end to end quality '
-              images='images/clients/grasim-2.png'>
-            </ClientTooltip>
+            
             <ClientTooltip
               name='Ultratech'
               logo='images/clients2/ultratech.png'
@@ -37,6 +32,12 @@ function Clients() {
               details='Godrej and Boyce is India’s pride, a business that has lasted 125+ years. We are their AI software partners across the group. Ripik Optimus and Ripik vision are deployed in several group businesses and are leading to throughput, yield and cost improvements. '
               images='images/clients/godrej-and-boyce-2.png'>
             </ClientTooltip>
+            <ClientTooltip
+              name='Grasim'
+              logo='images/clients2/grasim.svg'
+              details='Ripik APC at work! Improved pulp quality control by 50% by soft sensorisation and ML led chemical addition. AI modeling across the value chain and dynamic control to improve end to end quality '
+              images='images/clients/grasim-2.png'>
+            </ClientTooltip>
             </ul>
 
             <ul className='cards__items'>
@@ -47,17 +48,18 @@ function Clients() {
               images='images/clients/godrej-interio-2.png'>
             </ClientTooltip>
             <ClientTooltip
-              name='Godrej aerospace'
-              logo='images/clients2/godrej-aerospace.png'
-              details='They are the engine suppliers to Brahmos missile as well as ROlls Royce. How to make a Brahmos missile faster? How to ensure the build is stronger? Ripik APC at work.'
-              images='images/clients/godrej-aerospace-2.png'>
-            </ClientTooltip>
-            <ClientTooltip
               name='Piramal'
               logo='images/clients2/piramal.png'
               details='Serving several group businesses in their AI journeys. We are the thoughtpartners to the CXO brass. Several of their businesses where we have partnered are case studies of Fortune 100, Microsoft icons amongst others.'
               images='images/clients/piramal-2.png'>
             </ClientTooltip>
+            <ClientTooltip
+              name='Vedanta aluminium'
+              logo='images/clients2/vedanta.png'
+              details='Ripik Optimus at work to reduce energy consumption and improve efficiency in industrial settings'
+              images='images/clients/vedanta-2.png'>
+            </ClientTooltip>
+            
             <ClientTooltip
               name='PGP glass'
               logo='images/clients/pgp-glass.png'
@@ -73,17 +75,18 @@ function Clients() {
               details='JSPL is India’s number 1 steel maker. Our AI product - Ripik Optimus has led 1% yield improvement in plate mill via optimal combination of which plates to make from which slabs. '
               images='images/clients/jspl-2.png'>
             </ClientTooltip> */}
-            <ClientTooltip
-              name='Vedanta aluminium'
-              logo='images/clients2/vedanta.png'
-              details='Ripik Optimus at work to reduce energy consumption and improve efficiency in industrial settings'
-              images='images/clients/vedanta-2.png'>
-            </ClientTooltip>
+            
             <ClientTooltip
               name='DCM Shriram'
               logo='images/clients2/dcm-shriram.png'
               details='Ripik Optimus at work. Chlor alkali operating system that reduces power consumption by 3% in all electrolysis processes. Million dollar savings at the click of a button. '
               images='images/clients/dcm-shriram-2.png'>
+            </ClientTooltip>
+            <ClientTooltip
+              name='Godrej aerospace'
+              logo='images/clients2/godrej-aerospace.png'
+              details='They are the engine suppliers to Brahmos missile as well as ROlls Royce. How to make a Brahmos missile faster? How to ensure the build is stronger? Ripik APC at work.'
+              images='images/clients/godrej-aerospace-2.png'>
             </ClientTooltip>
             
             </ul>

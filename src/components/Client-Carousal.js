@@ -19,16 +19,22 @@ function ClientsCarousal() {
                   <img src = 'images/clients2/aditya-birla.png' alt = '' />
               </div>
               <div className='slide'>
-                  <img src = 'images/clients2/grasim.svg' alt = '' />
-              </div>
-              <div className='slide'>
                   <img src = 'images/clients2/ultratech.png' alt = '' />
               </div>
               <div className='slide'>
                   <img src = 'images/clients2/godrej-n-boyce.png' alt = '' />
               </div>
               <div className='slide'>
+                  <img src = 'images/clients2/grasim.svg' alt = '' />
+              </div>
+              <div className='slide'>
                   <img src = 'images/clients2/godrej-interio.png' alt = '' />
+              </div>
+              <div className='slide'>
+                  <img src = 'images/clients2/vedanta.png' alt = '' />
+              </div>
+              <div className='slide'>
+                  <img src = 'images/clients2/dcm-shriram.png' alt = '' />
               </div>
               <div className='slide'>
                   <img src = 'images/clients2/godrej-aerospace.png' alt = '' />
@@ -40,13 +46,9 @@ function ClientsCarousal() {
               {/* <div className='slide'>
                   <img src = 'images/clients/jindal-power.png' alt = '' />
               </div> */}
-              <div className='slide'>
-                  <img src = 'images/clients2/vedanta.png' alt = '' />
-              </div>
+              
 
-              <div className='slide'>
-                  <img src = 'images/clients2/dcm-shriram.png' alt = '' />
-              </div>
+              
               <div className='slide'>
                   <img src = 'images/clients/pgpglass.png' alt = '' />
               </div>
