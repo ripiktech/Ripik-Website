@@ -37,9 +37,9 @@ function ClientsCarousal() {
                   <img src = 'images/clients2/piramal.png' alt = '' />
               </div>
               
-              <div className='slide'>
+              {/* <div className='slide'>
                   <img src = 'images/clients/jindal-power.png' alt = '' />
-              </div>
+              </div> */}
               <div className='slide'>
                   <img src = 'images/clients2/vedanta.png' alt = '' />
               </div>

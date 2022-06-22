@@ -67,12 +67,12 @@ function Clients() {
             </ul>
 
             <ul className='cards__items'>
-            <ClientTooltip
+            {/* <ClientTooltip
               name='Jindal steel and power ltd'
               logo='images/clients/jindal.png'
               details='JSPL is India’s number 1 steel maker. Our AI product - Ripik Optimus has led 1% yield improvement in plate mill via optimal combination of which plates to make from which slabs. '
               images='images/clients/jspl-2.png'>
-            </ClientTooltip>
+            </ClientTooltip> */}
             <ClientTooltip
               name='Vedanta aluminium'
               logo='images/clients2/vedanta.png'
