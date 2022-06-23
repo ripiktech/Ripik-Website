@@ -23,6 +23,8 @@ function Partners() {
             <CardItem
               src='images/partners/msazure.png'
             />
+            </ul>
+            <ul className='cards__items2'>
             <CardItem
               src='images/partners/google.png'
             />

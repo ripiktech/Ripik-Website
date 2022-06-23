@@ -7,7 +7,7 @@ import CountUp from 'react-countup'
 
 
 const countTime = 2;
-const delayTime = 3;
+const delayTime = 2;
 
 function TeamCounterAnimation() {
 
@@ -17,16 +17,10 @@ function TeamCounterAnimation() {
             
 
 
-<div className="card">
-    <div className="imgAnimated">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-    </div>
-    <div className="contentAnimated">
-    </div>
-</div>
+        <div class="card">
+            {/* <div class="img"> <span></span><span></span><span></span><span></span></div> */}
+            <img className='team-image' src = './images/team/team360.jpg'/>
+        </div>
                         
                        
                         <p>

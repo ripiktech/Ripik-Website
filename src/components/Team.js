@@ -64,7 +64,7 @@ const Team = () => {
           <Card img="./images/team/profile/Pratham Gupta.jpg" name="Pratham Gupta" role="    ML expert from IIIT Hyderabad "
           testimonial="Deep experience in building algorithms."
           />
-          <Card img="./images/team/profile/pinak_jain.jpg" name="Gargi Sharma" role="    Data scientist from IIT Delhi"
+          <Card img="./images/team/profile/gargi.jpeg" name="Gargi Sharma" role="    Data scientist from IIT Delhi"
           testimonial="Churns out ML models day in and day out."
           />
           <Card img="./images/team/profile/Aayush.jpg" name="Aayush Kadam" role="    Front end specialist from IIT Bombay , Google"
