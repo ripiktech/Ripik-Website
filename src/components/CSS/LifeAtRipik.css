@@ -65,7 +65,7 @@ img {
 
 .slider::before,
 .slider::after {
-  background: linear-gradient(to right, rgba(18, 18, 18,0.9) 10%, rgba(18, 18, 18, 0) 100%);
+  /* background: linear-gradient(to right, rgba(18, 18, 18,0.9) 10%, rgba(18, 18, 18, 0) 100%); */
   content: '';
   height: 100%;
   position: absolute;
