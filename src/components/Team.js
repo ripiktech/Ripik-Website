@@ -50,7 +50,7 @@ const Team = () => {
           testimonial="8 years of experience building AI models and building data science teams, first in Deloitte and then in McKinsey."
           />
           <Card img="./images/team/profile/ananth.jpeg" name="Ananth Govind Rajan" role="    Advisor to Ripik.ai "
-          testimonial="PhD in AI-ML from MIT, Boston, Institute rank 1 at IIT Delhi."
+          testimonial="PhD in Chemical Engg from Massachusetts Institute of Technology. Silver Medalist from IIT Delhi. Faculty at IISc Bangalore with expertise in AI/ML applied to the chemical sciences."
           />
           <Card img="./images/team/profile/purva_jain.jpg" name="Purva Jain" role="    Chief People Officer "
           testimonial="8 years of experience in leading teams and managing their problems."
